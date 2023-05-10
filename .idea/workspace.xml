@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a91326-8b3d-4b3d-b940-43023a66e3ac" name="Changes" comment="remove unwanted comment and add comment">
+    <list default="true" id="43a91326-8b3d-4b3d-b940-43023a66e3ac" name="Changes" comment="accuracy graph added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final system/text base/text_base train/train_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/final system/text base/text_base train/train_script.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/PP2 Last/final system 04-21/final system"
+    "last_opened_file_path": "E:/PP2 Last/final system 04-21/final system",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -73,7 +75,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683719180617</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added loss graph">
+      <created>1683727461433</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683727461433</updated>
+    </task>
+    <task id="LOCAL-00006" summary="accuracy graph added">
+      <created>1683727517917</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683727517917</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +108,8 @@
     <MESSAGE value="added comment" />
     <MESSAGE value="remove unwanted comment" />
     <MESSAGE value="remove unwanted comment and add comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove unwanted comment and add comment" />
+    <MESSAGE value="added loss graph" />
+    <MESSAGE value="accuracy graph added" />
+    <option name="LAST_COMMIT_MESSAGE" value="accuracy graph added" />
   </component>
 </project>

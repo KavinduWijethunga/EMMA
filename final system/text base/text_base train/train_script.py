@@ -11,7 +11,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
 from matplotlib import pyplot as plt
 
-
+#Load dataset
 with open('intents.json') as file:
     data = json.load(file)
 
