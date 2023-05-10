@@ -42,7 +42,7 @@ lbl_encoder = LabelEncoder()
 lbl_encoder.fit(training_labels)
 training_labels = lbl_encoder.transform(training_labels)
 
-
+##added max length
 vocab_size = 1000
 embedding_dim = 16
 max_len = 20

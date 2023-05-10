@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a91326-8b3d-4b3d-b940-43023a66e3ac" name="Changes" comment="added training patterns">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="43a91326-8b3d-4b3d-b940-43023a66e3ac" name="Changes" comment="added lable encoder">
       <change beforePath="$PROJECT_DIR$/final system/text base/text_base train/train_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/final system/text base/text_base train/train_script.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683735462549</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added lable encoder">
+      <created>1683736755916</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683736755916</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +146,7 @@
     <MESSAGE value="Dataset Loaded" />
     <MESSAGE value="split data" />
     <MESSAGE value="added training patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="added training patterns" />
+    <MESSAGE value="added lable encoder" />
+    <option name="LAST_COMMIT_MESSAGE" value="added lable encoder" />
   </component>
 </project>
