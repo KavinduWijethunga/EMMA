@@ -23,6 +23,7 @@ training_labels = []
 labels = []
 responses = []
 
+#added training patterns
 for intent in data['intents']:
     for pattern in intent['patterns']:
         training_sentences.append(pattern)
