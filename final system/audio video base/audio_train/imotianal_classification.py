@@ -143,7 +143,7 @@ y = y.toarray()
 #
 # y.shape
 
-
+#import keras LSTM neural network
 from keras.models import Sequential
 from keras.layers import Dense, LSTM, Dropout
 
