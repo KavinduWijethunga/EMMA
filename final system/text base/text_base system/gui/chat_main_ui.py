@@ -22,7 +22,6 @@ class myclass(QWidget):
     def onsendcl(self):    
         # soc.send(bytes(self.sendtext.text()+"\n",'utf-8'))
 
-        # self.sendandrec.append('\n'+'you: ' + self.sendtext.text( ) + '\n\n' + soc.recv(1024).decode())
 
         humen = self.sendtext.text()
         re_bot,report = chat_engin(humen)
