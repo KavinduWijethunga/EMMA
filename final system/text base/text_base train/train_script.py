@@ -36,7 +36,7 @@ for intent in data['intents']:
 
 
 
-
+#added lable encoder
 num_classes = len(labels)
 lbl_encoder = LabelEncoder()
 lbl_encoder.fit(training_labels)
