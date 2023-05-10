@@ -44,7 +44,6 @@ def chat_me(input):
 
     for i in data['intents']:
         if i['tag'] == tag:
-            #print(Fore.GREEN + "ChatBot:" + Style.RESET_ALL , np.random.choice(i['responses']))
 
             return str(np.random.choice(i['responses']))
 
