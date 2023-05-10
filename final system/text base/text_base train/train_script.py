@@ -90,7 +90,7 @@ plt.legend()
 plt.show()
 
 
-
+#loss graph
 loss = history.history['loss']
 
 plt.plot(epochs, loss, label='train loss')
