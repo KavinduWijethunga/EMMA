@@ -76,6 +76,7 @@ print('num_classes - ',num_classes)
 model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 model.summary()
 
+#initialize no of epoches
 epochs = 300
 history = model.fit(padded_sequences, np.array(training_labels), epochs=epochs)
 
