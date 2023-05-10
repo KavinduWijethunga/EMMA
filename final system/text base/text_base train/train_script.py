@@ -17,7 +17,7 @@ with open('intents.json') as file:
 
 
 
-
+#split labels and sentences
 training_sentences = []
 training_labels = []
 labels = []
