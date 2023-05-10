@@ -80,7 +80,7 @@ model.summary()
 epochs = 300
 history = model.fit(padded_sequences, np.array(training_labels), epochs=epochs)
 
-
+#accuracy graph
 acc = history.history['accuracy']
 epochs = list(range(epochs))
 plt.plot(epochs, acc, label='train accuracy')
