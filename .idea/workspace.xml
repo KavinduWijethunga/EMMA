@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a91326-8b3d-4b3d-b940-43023a66e3ac" name="Changes" comment="added max length">
-      <change beforePath="$PROJECT_DIR$/final system/text base/text_base train/train_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/final system/text base/text_base train/train_script.py" afterDir="false" />
+    <list default="true" id="43a91326-8b3d-4b3d-b940-43023a66e3ac" name="Changes" comment="remove unwanted data">
+      <change beforePath="$PROJECT_DIR$/final system/text base/text_base system/gui/chat_main_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/final system/text base/text_base system/gui/chat_main_ui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +129,56 @@
       <option name="project" value="LOCAL" />
       <updated>1683736866312</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adding out of vocabulary token">
+      <created>1683736889780</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683736889780</updated>
+    </task>
+    <task id="LOCAL-00013" summary="model initializing">
+      <created>1683736920607</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683736920607</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added dense layers">
+      <created>1683736940007</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1683736940007</updated>
+    </task>
+    <task id="LOCAL-00015" summary="initialize no of epoches">
+      <created>1683736974181</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1683736974181</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added accuracy graph">
+      <created>1683737005941</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683737005941</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added loss graph">
+      <created>1683737029173</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1683737029173</updated>
+    </task>
+    <task id="LOCAL-00018" summary="remove unwanted data">
+      <created>1683737099763</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1683737099765</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,13 +197,19 @@
     <MESSAGE value="added comment" />
     <MESSAGE value="remove unwanted comment" />
     <MESSAGE value="remove unwanted comment and add comment" />
-    <MESSAGE value="added loss graph" />
     <MESSAGE value="accuracy graph added" />
     <MESSAGE value="Dataset Loaded" />
     <MESSAGE value="split data" />
     <MESSAGE value="added training patterns" />
     <MESSAGE value="added lable encoder" />
     <MESSAGE value="added max length" />
-    <option name="LAST_COMMIT_MESSAGE" value="added max length" />
+    <MESSAGE value="adding out of vocabulary token" />
+    <MESSAGE value="model initializing" />
+    <MESSAGE value="added dense layers" />
+    <MESSAGE value="initialize no of epoches" />
+    <MESSAGE value="added accuracy graph" />
+    <MESSAGE value="added loss graph" />
+    <MESSAGE value="remove unwanted data" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove unwanted data" />
   </component>
 </project>

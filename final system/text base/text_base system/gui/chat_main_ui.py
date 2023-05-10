@@ -10,7 +10,7 @@ from chat_main_cmd import chat_engin
 import numpy as np
 
 
-
+#implement main UI
 
 class myclass(QWidget):
     def __init__(self):
