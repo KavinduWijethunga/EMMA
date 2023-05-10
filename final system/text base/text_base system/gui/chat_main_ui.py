@@ -20,7 +20,6 @@ class myclass(QWidget):
         self.pushButton.clicked.connect(self.onsendcl)
         #self.sendandrec.keyPressEvent(self, QKeyEvent)
     def onsendcl(self):    
-        # soc.send(bytes(self.sendtext.text()+"\n",'utf-8'))
 
 
         humen = self.sendtext.text()
