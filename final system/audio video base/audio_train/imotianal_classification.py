@@ -164,7 +164,6 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accur
 model.summary()
 
 # Train the model
-#history = model.fit(X, y, validation_split=0.2, epochs=100, batch_size=512, shuffle=True)
 
 history = model.fit(X, y, validation_split=0.2, epochs=70, batch_size=125, shuffle=True)
 
