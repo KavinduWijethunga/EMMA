@@ -66,6 +66,7 @@ model.add(GlobalAveragePooling1D())
 decoder_lstm = tf.keras.layers.LSTM( 10 , return_state=True , return_sequences=True )
 decoder_lstm = tf.keras.layers.LSTM( 5 , return_state=True , return_sequences=True )
 
+#added dense layers
 model.add(Dense(32, activation='relu'))
 model.add(Dense(16, activation='relu'))
 model.add(Dense(num_classes, activation='softmax'))
