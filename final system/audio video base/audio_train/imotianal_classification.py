@@ -172,6 +172,7 @@ epochs = list(range(70))
 acc = history.history['accuracy']
 val_acc = history.history['val_accuracy']
 
+#accuracy graph
 plt.plot(epochs, acc, label='train accuracy')
 plt.plot(epochs, val_acc, label='val accuracy')
 plt.xlabel('epochs')
