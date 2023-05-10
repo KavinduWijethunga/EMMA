@@ -58,7 +58,7 @@ padded_sequences = pad_sequences(sequences, truncating='post', maxlen=max_len)
 
 
 ########################## model #####################################
-
+#model initializing
 model = Sequential()
 model.add(Embedding(vocab_size, embedding_dim, input_length=max_len))
 model.add(GlobalAveragePooling1D())
