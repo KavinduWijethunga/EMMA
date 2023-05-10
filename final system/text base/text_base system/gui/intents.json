@@ -1,0 +1,172 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m doctor Know, your bot assistant", "I'm doctor Know, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Dr.Know.", "I'm Dr.Know!", "Just call me as Dr.Know"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {"tag": "sick",
+    "patterns": ["I'm not good today", "I've been having a lot of difficulty sleeping", "I have no energy or motivation to do anything"],
+    "responses": ["I'm sorry to hear that. Can you tell me more about your symptoms?", "okay tell me anything you want", "I can help you tell me your symptoms"]
+    },
+    {"tag": "happy",
+    "patterns": ["I'm doing well too, thanks. Life is good.","I've been able to spend a lot of time outside, which always puts me in a good mood", "I've been catching up with my friends lately","Oh, just the usual stuff. Work has been going well and I've been able to spend some quality time with friends and family. And I've also been trying out some new hobbies, which has been really fun."],
+    "responses":[" Definitely. So, what have you been up to lately that's been making you happy., That sounds great. I'm glad to hear that you're finding joy in the things you're doing.", "Thats souns great, keep doing what your doing"]
+    },
+    {"tag": "sad",
+    "patterns": ["Hi,I've been feeling really depressed and anxious lately, and I'm having trouble functioning at work and in my personal life.","I've been having a lot of difficulty sleeping, and I'm exhausted all the time. I have no energy or motivation to do anything, and I just feel really down", "It's been really hard. I've been struggling to get work done, and I've been feeling isolated from my friends and family."],
+    "responses":["I'm sorry to hear that. Can you tell me more about your experience?","How have your symptoms affected your daily life?", "Do you have a support system in place, such as family or friends who you can talk to about your feelings?"]
+    },
+   {
+    "tag": "scared",
+    "patterns": ["I'm so scared, I don't know what's going to happen to me.", "I'm just worried that something terrible is going to happen to me. I can't stop thinking about it", "I've tried deep breathing before, but it doesn't seem to help much.im scared about my future"],
+    "responses": ["I understand that you're feeling scared right now. It's completely normal to feel that way when you're facing an uncertain situation. But I want you to know that you're not alone and that I'm here to help you. Can you tell me more about what you're afraid of?", "It sounds like you're experiencing a lot of anxiety.", "It s important to remember that worrying about things that might happen in the future can be a normal part of life, but when it starts to interfere with your daily activities, it might be helpful to speak with a mental health professional.", "there are some things you can try to help manage your anxiety. Have you tried deep breathing or progressive muscle relaxation?"]
+   },{
+  "tag": "health_issue",
+  "patterns": ["I'm feeling sick", "My stomach hurts", "I have a headache"],
+  "responses": ["I'm sorry to hear that. Have you tried taking any medication?", "That sounds uncomfortable. Have you tried resting?", "I understand how you feel. Have you considered seeing a doctor?"]
+},
+
+{
+  "tag": "symptom",
+  "patterns": ["I have a fever", "My throat hurts", "I'm coughing a lot"],
+  "responses": ["Those are common symptoms of a cold or flu. You should try resting and drinking fluids.", "It sounds like you may have a sore throat. Have you tried gargling salt water?", "Frequent coughing can be a sign of respiratory illness. You may want to consider seeing a doctor."]
+},
+
+{
+  "tag": "mental_health",
+  "patterns": ["I'm feeling anxious", "I'm having trouble sleeping", "I'm feeling depressed"],
+  "responses": ["Those are common symptoms of anxiety. Have you tried deep breathing exercises?", "It sounds like you may be experiencing insomnia. Have you tried establishing a bedtime routine?", "Feeling depressed can be difficult. Have you considered talking to a therapist or counselor?"]
+},
+
+{
+  "tag": "loneliness",
+  "patterns": ["I feel lonely all the time", "I don't have anyone to talk to", "I feel like I have no friends"],
+  "responses": ["Loneliness can be a difficult emotion to deal with. Have you considered reaching out to a support group or therapist?", "Feeling lonely is a common experience, but there are steps you can take to connect with others, like joining a club or volunteering.", "It's important to remember that feeling lonely is temporary and there are people who care about you."]
+}
+,
+{
+  "tag": "loss",
+  "patterns": ["I lost someone important to me", "I'm grieving", "I can't stop thinking about my loss"],
+  "responses": ["Grieving is a natural and important process. Remember to take care of yourself and reach out to others for support.", "It's okay to take time to mourn your loss. Consider talking to a therapist or joining a grief support group.", "Remember that everyone grieves differently and there is no right way to feel or process your loss."]
+},
+
+
+
+{
+  "tag": "depression",
+  "patterns": ["I feel sad all the time", "I don't enjoy anything anymore", "I can't stop crying"],
+  "responses": ["Depression can be a difficult emotion to deal with. Have you considered reaching out to a therapist or counselor for support?", "It's important to remember that depression is a treatable condition. Consider talking to a doctor or mental health professional about your options.", "Remember that you are not alone in your struggle with depression. There are people who care about you and want to support you."]
+},
+
+{
+  "tag": "anxiety",
+  "patterns": ["I feel nervous all the time", "I can't stop worrying", "I have panic attacks"],
+  "responses": ["Anxiety can be a difficult emotion to deal with. Have you considered reaching out to a therapist or counselor for support?", "It's important to remember that anxiety is a treatable condition. Consider talking to a doctor or mental health professional about your options.", "Remember that you are not alone in your struggle with anxiety. There are people who care about you and want to support you."]
+},
+
+{
+  "tag": "trauma",
+  "patterns": ["I have experienced trauma", "I can't stop reliving the past", "I feel like I'm stuck in the past"],
+  "responses": ["Experiencing trauma can be a difficult and isolating experience. Consider reaching out to a therapist or counselor for support.", "Remember that healing from trauma is a process. It's okay to take things at your own pace and prioritize self-care.", "There is hope for healing and recovery from trauma. Remember to be kind to yourself and take things one step at a time."]
+},
+{
+  "tag": "isolation",
+  "patterns": ["I feel isolated and alone", "I don't have anyone to talk to", "I'm afraid to reach out to others"],
+  "responses": ["Feeling isolated can be a difficult emotion to deal with. Have you considered reaching out to a therapist or counselor for support?", "It's important to remember that social connection is an important part of mental health. Consider joining a support group or club to meet new people.", "Remember that it's okay to take small steps to connect with others. Even reaching out to a friend or family member can make a big difference."]
+},
+
+{
+  "tag": "self-esteem",
+  "patterns": ["I feel like I'm not good enough", "I'm always comparing myself to others", "I don't feel confident in myself"],
+  "responses": ["Low self-esteem can be a difficult emotion to deal with. Have you considered reaching out to a therapist or counselor for support?", "Remember that your self-worth is not based on external factors like appearance or achievements. It's okay to work on building your self-esteem through positive self-talk and self-care.", "You are deserving of love and respect, including from yourself. Remember to treat yourself with kindness and compassion."]
+},
+{
+  "tag": "suicidal thoughts",
+  "patterns": ["I have thoughts of suicide", "I don't want to be alive anymore", "I feel like there's no way out"],
+  "responses": ["Thoughts of suicide can be very serious. It's important to reach out for help as soon as possible.", "Remember that you are not alone in your struggle with suicidal thoughts. There are resources available, like crisis hotlines and therapy.", "You deserve to get the help you need and to feel better. Remember to prioritize your safety and reach out for support."]
+},
+{
+  "tag": "grief",
+  "patterns": ["I'm struggling with the loss of a loved one", "I feel like I can't move on", "I don't know how to cope with my grief"],
+  "responses": ["Grief can be a difficult emotion to deal with. Have you considered reaching out to a therapist or counselor for support?", "Remember that it's okay to take things at your own pace when it comes to grief. Be patient and compassionate with yourself.", "It's important to remember that there is no right or wrong way to grieve. Everyone experiences it differently."]
+},
+{
+  "tag": "loneliness",
+  "patterns": ["I feel lonely even when I'm around others", "I don't have anyone to talk to about how I'm feeling", "I feel disconnected from others"],
+  "responses": ["Feeling lonely can be a difficult emotion to deal with. Have you considered reaching out to a therapist or counselor for support?", "Remember that it's okay to take small steps to connect with others, like joining a club or taking a class. Even a small social interaction can make a difference.", "It's important to prioritize self-care when you're feeling lonely. Take time to do things that make you happy and feel fulfilled."]
+},
+{
+  "tag": "hopelessness",
+  "patterns": ["I feel like nothing will ever get better", "I don't see a way out of my current situation", "I feel stuck and hopeless"],
+  "responses": ["Feeling hopeless can be a difficult emotion to deal with. Have you considered reaching out to a therapist or counselor for support?", "Remember that it's okay to take things one step at a time when you're feeling hopeless. Small changes can add up to big progress.", "There is always hope for change and improvement, even when things feel difficult. Remember to be patient and compassionate with yourself."]
+},
+  {
+  "tag": "hopelessness",
+  "patterns": ["I feel hopeless", "I don't see a way out", "I feel like nothing will ever get better"],
+  "responses": ["Feeling hopeless can be overwhelming, but it's important to remember that there is always hope. Consider reaching out to a therapist or counselor for support.", "Remember that your feelings are valid and you don't have to go through this alone. Take small steps to care for yourself, like getting enough sleep and eating well.", "There is always a path forward, even when it may not feel like it. Keep hope alive and take things one day at a time."]
+},
+{
+  "tag": "anxiety",
+  "patterns": ["I feel anxious all the time", "I can't stop worrying about things", "I have physical symptoms like sweating and shaking when I feel anxious"],
+  "responses": ["Anxiety can be a difficult emotion to deal with. Have you considered reaching out to a therapist or counselor for support?", "Remember that it's okay to take small steps to manage your anxiety, like practicing deep breathing or mindfulness. These techniques can help you feel more in control.", "It's important to prioritize self-care when you're feeling anxious. Make sure you're getting enough sleep, exercise, and healthy food."]
+},
+{
+  "tag": "depression",
+  "patterns": ["I feel sad all the time", "I don't enjoy things that used to make me happy", "I have no energy and feel hopeless"],
+  "responses": ["Depression can be a difficult emotion to deal with. Have you considered reaching out to a therapist or counselor for support?", "Remember that you are not alone in your struggle with depression. Many people experience it, and there are effective treatments available.", "It's important to prioritize self-care when you're feeling depressed. Make sure you're getting enough sleep, exercise, and healthy food."]
+},
+{
+  "tag": "trauma",
+  "patterns": ["I have experienced trauma and can't stop thinking about it", "I feel triggered by certain situations or memories", "I have physical symptoms like flashbacks and nightmares related to my trauma"],
+  "responses": ["Experiencing trauma can be very difficult, and it's important to get the support you need. Have you considered reaching out to a therapist or counselor who specializes in trauma?", "Remember that it's okay to take things at your own pace when it comes to processing trauma. It's a difficult process, but it's possible to heal.", "It's important to prioritize self-care when you're dealing with trauma. Make sure you're getting enough rest and doing things that make you feel safe and supported."]
+},
+{
+  "tag": "heartbreak",
+  "patterns": ["I can't stop thinking about my ex", "I feel like I'll never find love again", "I'm struggling to move on from my past relationship"],
+  "responses": ["Heartbreak can be a difficult emotion to deal with. Have you considered talking to a therapist or counselor to help you process your feelings?", "Remember that it's okay to take time to heal and grieve the end of your relationship. It's important to focus on self-care, such as practicing mindfulness or engaging in activities you enjoy.", "Although it may feel overwhelming right now, you will get through this. It takes time and effort to heal, but eventually, you will be able to move on and find love again."]
+},
+{
+  "tag": "unrequited love",
+  "patterns": ["I have feelings for someone who doesn't feel the same way", "I feel rejected and alone", "I can't seem to get over my crush"],
+  "responses": ["Unrequited love can be a painful experience. Have you considered talking to a therapist or counselor to help you process your feelings and develop coping strategies?", "Remember that your feelings are valid and it's okay to take time to heal. It's important to focus on self-care, such as engaging in activities you enjoy and spending time with supportive friends and family.", "Although it may be hard to see right now, know that there are other people out there who will appreciate and reciprocate your love. Keep an open mind and don't give up on finding love."]
+},
+{
+  "tag": "betrayal",
+  "patterns": ["I found out my partner was cheating on me", "I feel so hurt and betrayed", "I don't know how to move on from my partner's infidelity"],
+  "responses": ["Betrayal can be a difficult emotion to deal with. Have you considered talking to a therapist or counselor to help you process your feelings and develop coping strategies?", "Remember that it's important to prioritize your well-being and take time to heal. It's okay to set boundaries and take space from your partner if needed.", "Although it may be hard to see right now, know that healing and forgiveness are possible. It may take time and effort, but with support and self-care, you can move forward and find happiness."]
+},
+{
+  "tag": "self-esteem",
+  "patterns": ["I feel like a failure since my breakup", "I'm struggling to believe in myself", "I don't think anyone will ever love me"],
+  "responses": ["Low self-esteem can be a difficult emotion to deal with. Have you considered talking to a therapist or counselor to help you process your feelings and develop self-care strategies?", "Remember that you are worthy of love and respect, regardless of your relationship status. Focus on building self-compassion and engaging in activities that make you feel good about yourself.", "Although it may be hard to see right now, know that you are capable of finding love and happiness. With support and self-care, you can build your self-esteem and attract positive relationships into your life."]
+}
+
+]
+}

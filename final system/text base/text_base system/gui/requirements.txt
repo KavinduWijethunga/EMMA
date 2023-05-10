@@ -1,0 +1,6 @@
+colorama==0.4.6
+numpy==1.23.5
+PyQt5==5.15.9
+scikit_learn==1.2.2
+tensorflow==2.12.0
+tensorflow-cpu

@@ -1,0 +1,53 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m doctor Know, your bot assistant", "I'm doctor Know, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Dr.Know.", "I'm Dr.Know!", "Just call me as Dr.Know"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {"tag": "sick",
+    "patterns": ["I'm not good today", "I've been having a lot of difficulty sleeping", "I have no energy or motivation to do anything"],
+    "responses": ["I'm sorry to hear that. Can you tell me more about your symptoms?", "okay tell me anything you want", "I can help you tell me your symptoms"]
+    },
+    {"tag": "happy",
+    "patterns": ["I'm doing well too, thanks. Life is good.","I've been able to spend a lot of time outside, which always puts me in a good mood", "I've been catching up with my friends lately","Oh, just the usual stuff. Work has been going well and I've been able to spend some quality time with friends and family. And I've also been trying out some new hobbies, which has been really fun."],
+    "responses":[" Definitely. So, what have you been up to lately that's been making you happy., That sounds great. I'm glad to hear that you're finding joy in the things you're doing.", "Thats souns great, keep doing what your doing"]
+    },
+    {"tag": "sad",
+    "patterns": ["Hi,I've been feeling really depressed and anxious lately, and I'm having trouble functioning at work and in my personal life.","I've been having a lot of difficulty sleeping, and I'm exhausted all the time. I have no energy or motivation to do anything, and I just feel really down", "It's been really hard. I've been struggling to get work done, and I've been feeling isolated from my friends and family."],
+    "responses":["I'm sorry to hear that. Can you tell me more about your experience?","How have your symptoms affected your daily life?", "Do you have a support system in place, such as family or friends who you can talk to about your feelings?"]
+    },
+   {
+    "tag": "scared",
+    "patterns": ["I'm so scared, I don't know what's going to happen to me.", "I'm just worried that something terrible is going to happen to me. I can't stop thinking about it", "I've tried deep breathing before, but it doesn't seem to help much.im scared about my future"],
+    "responses": ["I understand that you're feeling scared right now. It's completely normal to feel that way when you're facing an uncertain situation. But I want you to know that you're not alone and that I'm here to help you. Can you tell me more about what you're afraid of?", "It sounds like you're experiencing a lot of anxiety.", "It s important to remember that worrying about things that might happen in the future can be a normal part of life, but when it starts to interfere with your daily activities, it might be helpful to speak with a mental health professional.", "there are some things you can try to help manage your anxiety. Have you tried deep breathing or progressive muscle relaxation?"]
+   }
+
+]
+}
