@@ -191,6 +191,7 @@ plt.ylabel('loss')
 plt.legend()
 plt.show()
 
+#save the model
 model.save("audio_chat_emo_model_new_dataset.h5")
 
 
