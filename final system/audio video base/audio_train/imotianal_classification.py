@@ -184,6 +184,7 @@ plt.show()
 loss = history.history['loss']
 val_loss = history.history['val_loss']
 
+#loss graph
 plt.plot(epochs, loss, label='train loss')
 plt.plot(epochs, val_loss, label='val loss')
 plt.xlabel('epochs')
